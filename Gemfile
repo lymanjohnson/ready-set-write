@@ -22,6 +22,7 @@ gem 'webpacker'
 # gem 'therubyracer', platforms: :ruby
 
 gem 'react_on_rails', '10.0.2'
+gem 'graphql'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
