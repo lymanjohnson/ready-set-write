@@ -14,13 +14,12 @@
     "webpack-dev-server": "^2.9.4"
   },
   "scripts": {
-    "postinstall": "cd client && npm install",
-    "build:production": "NODE_ENV=production webpack --config webpack.config.js", 
+    "build:production": "NODE_ENV=production webpack --config webpack.config.js",
     "rails-server": "echo 'visit http://localhost:3000/hello_world' && foreman start -f Procfile.dev",
     "test": "rspec"
   },
   "cacheDirectories": [
-  "node_modules",
-  "client/node_modules"
+    "node_modules",
+    "client/node_modules"
   ]
 }
